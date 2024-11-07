@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/meu-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/teste
 
       - name: Log out from Docker Hub
         run: docker logout
