@@ -11,7 +11,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - WATCHTOWER_CLEANUP=true
-      - WATCHTOWER_POLL_INTERVAL=300
-    # command: --interval 30 --cleanup ci-teste
+      - WATCHTOWER_POLL_INTERVAL=30
+    command: ci-teste
     
     
