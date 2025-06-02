@@ -2,7 +2,7 @@
 X=0
 while true
 do
-    echo "[$X] Teste de CI/CD"
+    echo "[$X] Hello world!!!"
     sleep 1s
     let X++
 done
